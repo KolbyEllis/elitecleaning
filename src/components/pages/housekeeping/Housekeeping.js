@@ -1,10 +1,10 @@
 import React from 'react';
-import Test from '../../accordion/Test';
+import MyAccordion from '../../accordion/Accordion';
 
 const Housekeeping = () => {
   return (
     <div>
-      <Test />
+      <MyAccordion />
     </div>
   );
 };
