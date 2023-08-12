@@ -1,6 +1,6 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 
-function Assign() {
+function AssignTask() {
   return (
     <Dropdown>
       <Dropdown.Toggle id="dropdown-basic">
@@ -15,4 +15,4 @@ function Assign() {
   );
 }
 
-export default Assign;
+export default AssignTask;

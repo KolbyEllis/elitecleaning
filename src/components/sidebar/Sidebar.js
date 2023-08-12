@@ -10,9 +10,9 @@ function Sidebar() {
           <Navbar.Brand href="/home">Dashboard</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/housekeeping">Housekeeping</Nav.Link>
-            <Nav.Link href="/features">Maintence</Nav.Link>
-            <Nav.Link href="/pricing">Messages</Nav.Link>
-            <Nav.Link href="/pricing">Settings</Nav.Link>
+            <Nav.Link href="/maintenance">Maintenance</Nav.Link>
+            <Nav.Link href="/messages">Messages</Nav.Link>
+            <Nav.Link href="/Settings">Settings</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

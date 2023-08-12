@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
-import Assign from '../dropdowns/Assign';
-import Issues from '../dropdowns/Issues';
+import Assign from '../../dropdowns/AssignTask';
+import Cleaning from '../../dropdowns/Cleaning';
 
 function TableTwo() {
   return (
@@ -19,42 +19,42 @@ function TableTwo() {
       <tbody>
         <tr>
           <td>201</td>
-          <td><Issues /></td>
+          <td><Cleaning /></td>
           <td><Assign /></td>
           <td>206</td>
-          <td><Issues /></td>
+          <td><Cleaning /></td>
           <td><Assign /></td>
         </tr>
         <tr>
           <td>202</td>
-          <td><Issues /></td>
+          <td><Cleaning /></td>
           <td><Assign /></td>
           <td>207</td>
-          <td><Issues /></td>
+          <td><Cleaning /></td>
           <td><Assign /></td>
         </tr>
         <tr>
           <td>203</td>
-          <td><Issues /></td>
+          <td><Cleaning /></td>
           <td><Assign /></td>
           <td>208</td>
-          <td><Issues /></td>
+          <td><Cleaning /></td>
           <td><Assign /></td>
         </tr>
         <tr>
           <td>204</td>
-          <td><Issues /></td>
+          <td><Cleaning /></td>
           <td><Assign /></td>
           <td>209</td>
-          <td><Issues /></td>
+          <td><Cleaning /></td>
           <td><Assign /></td>
         </tr>
         <tr>
           <td>205</td>
-          <td><Issues /></td>
+          <td><Cleaning /></td>
           <td><Assign /></td>
           <td>220</td>
-          <td><Issues /></td>
+          <td><Cleaning /></td>
           <td><Assign /></td>
         </tr>
       </tbody>

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
-import Assign from '../dropdowns/Assign';
-import Issues from '../dropdowns/Issues';
+import Assign from '../dropdowns/AssignTask';
+import Issues from '../dropdowns/Cleaning';
 
-function TableThree() {
+function TableFour() {
   return (
     <Table striped bordered hover>
       <thead>
@@ -18,42 +18,42 @@ function TableThree() {
       </thead>
       <tbody>
         <tr>
-          <td>301</td>
+          <td>401</td>
           <td><Issues /></td>
           <td><Assign /></td>
-          <td>306</td>
-          <td><Issues /></td>
-          <td><Assign /></td>
-        </tr>
-        <tr>
-          <td>302</td>
-          <td><Issues /></td>
-          <td><Assign /></td>
-          <td>307</td>
+          <td>406</td>
           <td><Issues /></td>
           <td><Assign /></td>
         </tr>
         <tr>
-          <td>303</td>
+          <td>402</td>
           <td><Issues /></td>
           <td><Assign /></td>
-          <td>308</td>
-          <td><Issues /></td>
-          <td><Assign /></td>
-        </tr>
-        <tr>
-          <td>304</td>
-          <td><Issues /></td>
-          <td><Assign /></td>
-          <td>309</td>
+          <td>407</td>
           <td><Issues /></td>
           <td><Assign /></td>
         </tr>
         <tr>
-          <td>305</td>
+          <td>403</td>
           <td><Issues /></td>
           <td><Assign /></td>
-          <td>310</td>
+          <td>408</td>
+          <td><Issues /></td>
+          <td><Assign /></td>
+        </tr>
+        <tr>
+          <td>404</td>
+          <td><Issues /></td>
+          <td><Assign /></td>
+          <td>409</td>
+          <td><Issues /></td>
+          <td><Assign /></td>
+        </tr>
+        <tr>
+          <td>405</td>
+          <td><Issues /></td>
+          <td><Assign /></td>
+          <td>410</td>
           <td><Issues /></td>
           <td><Assign /></td>
         </tr>
@@ -62,4 +62,4 @@ function TableThree() {
   );
 }
 
-export default TableThree;
+export default TableFour;

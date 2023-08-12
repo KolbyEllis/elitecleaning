@@ -1,6 +1,6 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 
-function Issues() {
+function Maintenance() {
 
   return (
     <Dropdown>
@@ -18,4 +18,4 @@ function Issues() {
   );
 }
 
-export default Issues;
+export default Maintenance;

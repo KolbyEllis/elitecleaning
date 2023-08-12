@@ -1,14 +1,14 @@
 import React from 'react';
 import { Accordion} from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
-import TableOne from '../table/TableOne';
-import TableTwo from '../table/TableTwo';
-import TableThree from '../table/TableThree';
-import TableFour from '../table/TableFour';
-import TableFive from '../table/TableFive';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import TableOne from '../tables/maintenancetable/TableOne';
+import TableTwo from '../tables/maintenancetable/TableTwo';
+import TableThree from '../tables/maintenancetable/TableThree';
+import TableFour from '../tables/maintenancetable/TableFour';
+import TableFive from '../tables/maintenancetable/TableFive';
 import Savebutton from '../buttons/Savebutton';
 
-function MyAccordion() {
+function AccordionMaintenance() {
   return (
     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
@@ -46,4 +46,4 @@ function MyAccordion() {
   );
 }
 
-export default MyAccordion;
+export default AccordionMaintenance;
